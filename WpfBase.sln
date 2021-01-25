@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfBase.Infrastructure", "WpfBase.Infrastructure\WpfBase.Infrastructure.csproj", "{554EB562-275C-4188-936B-3E8E9AE98AA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionsLibrary", "ExtensionsLibrary\ExtensionsLibrary.csproj", "{8666C4C9-75FD-40F2-BA9C-1D3B5927B7D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfBase", "WpfBase\WpfBase.csproj", "{EC920D7F-8B45-4314-87B3-5229D1C220CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfControlLibrary", "WpfControlLibrary\WpfControlLibrary.csproj", "{2AA159BC-3587-483B-BE54-E9E6C30BE4B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkBase", "EntityFrameworkBase\EntityFrameworkBase.csproj", "{63072A6D-2F3B-4FF5-855F-A84266442710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfBase.Domain", "WpfBase.Domain\WpfBase.Domain.csproj", "{26DD33B1-F8FC-4773-97C6-8DC9546EDEA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfBase.UseCase", "WpfBase.UseCase\WpfBase.UseCase.csproj", "{9815912C-2AEC-455B-AA9D-DD42AD880B5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{554EB562-275C-4188-936B-3E8E9AE98AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{554EB562-275C-4188-936B-3E8E9AE98AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{554EB562-275C-4188-936B-3E8E9AE98AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{554EB562-275C-4188-936B-3E8E9AE98AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8666C4C9-75FD-40F2-BA9C-1D3B5927B7D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8666C4C9-75FD-40F2-BA9C-1D3B5927B7D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8666C4C9-75FD-40F2-BA9C-1D3B5927B7D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8666C4C9-75FD-40F2-BA9C-1D3B5927B7D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC920D7F-8B45-4314-87B3-5229D1C220CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC920D7F-8B45-4314-87B3-5229D1C220CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC920D7F-8B45-4314-87B3-5229D1C220CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC920D7F-8B45-4314-87B3-5229D1C220CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA159BC-3587-483B-BE54-E9E6C30BE4B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA159BC-3587-483B-BE54-E9E6C30BE4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA159BC-3587-483B-BE54-E9E6C30BE4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA159BC-3587-483B-BE54-E9E6C30BE4B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63072A6D-2F3B-4FF5-855F-A84266442710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63072A6D-2F3B-4FF5-855F-A84266442710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63072A6D-2F3B-4FF5-855F-A84266442710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63072A6D-2F3B-4FF5-855F-A84266442710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26DD33B1-F8FC-4773-97C6-8DC9546EDEA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26DD33B1-F8FC-4773-97C6-8DC9546EDEA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26DD33B1-F8FC-4773-97C6-8DC9546EDEA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26DD33B1-F8FC-4773-97C6-8DC9546EDEA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9815912C-2AEC-455B-AA9D-DD42AD880B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9815912C-2AEC-455B-AA9D-DD42AD880B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9815912C-2AEC-455B-AA9D-DD42AD880B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9815912C-2AEC-455B-AA9D-DD42AD880B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DD3E950-4362-42FF-88CF-82374049373C}
+	EndGlobalSection
+EndGlobal

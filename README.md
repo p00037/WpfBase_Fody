@@ -1,2 +1,2 @@
-# WpfBase_Fody
-WPFアプリのベース
+# WpfBase
+Wpfでプログラムを作るときのベースプロジェクト
