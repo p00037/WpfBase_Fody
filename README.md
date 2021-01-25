@@ -1,0 +1,2 @@
+# WpfBase_Fody
+WPFアプリのベース
